@@ -2,27 +2,9 @@
 #include <iostream>
 #include <math.h>
 #include <vector>
+#include <debug.h>
 
 using namespace std;
-
-template <typename T>
-void printVector(vector<T> &vector)
-{
-    cout << "[";
-
-    int size = vector.size();
-    for (int i = 0; i < size; i++)
-    {
-        if (i != size - 1)
-        {
-            cout << vector[i] << ", ";
-        }
-        else
-        {
-            cout << vector[i] << "]" << endl;
-        }
-    }
-}
 
 vector<int> exchange(int t)
 {
@@ -61,7 +43,7 @@ int main()
 {
     auto result = exchange(1599);
 
-    printVector<int>(result);
+    Debug::printVector<int>(result);
 
     getchar();
 }

@@ -2,27 +2,9 @@
 #include <iostream>
 #include <time.h>
 #include <vector>
+#include <debug.h>
 
 using namespace std;
-
-template <typename T>
-void printVector(vector<T> &vector)
-{
-    cout << "[";
-
-    int size = vector.size();
-    for (int i = 0; i < size; i++)
-    {
-        if (i != size - 1)
-        {
-            cout << vector[i] << ", ";
-        }
-        else
-        {
-            cout << vector[i] << "]" << endl;
-        }
-    }
-}
 
 void bubbleSort(vector<int> &a)
 {
@@ -60,7 +42,7 @@ int main()
     test(v2);
 
     // cout << v[0];
-    // printVector<int>(v);
+    Debug::printVector<int>(v);
 
     getchar();
 }

@@ -14,7 +14,7 @@ int main()
     {
         static int i = 0;
         
-        system("cls");
+        // system("cls");
         cout << string("Hello") + "World!" << a << " " << ff << endl;
         cout << i++ << endl;
         Sleep(100);

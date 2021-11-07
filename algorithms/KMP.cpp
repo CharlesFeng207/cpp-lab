@@ -2,6 +2,7 @@
 #include <string>
 #include <time.h>
 #include <vector>
+#include <debug.h>
 
 using namespace std;
 
@@ -30,10 +31,11 @@ vector<int> KMP_pre_DP(string &t)
 bool KMP(string &s, string &t)
 {
     auto f = KMP_pre_DP(t);
+    Debug::printVector(f);
 
-    int size = s.size() - t.size();
+    int loopCount = s.size() - t.size() + 1;
 
-    for (int i = 0; i < size;)
+    for (int i = 0; i < loopCount;)
     {
         for (int j = 0; j < t.size(); j++)
         {
@@ -56,9 +58,9 @@ bool KMP(string &s, string &t)
 // Algorithm complexity O(n*m)
 bool bruteforce(string &s, string &t)
 {
-    int size = s.size() - t.size();
+    int loopCount = s.size() - t.size() + 1;
 
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < loopCount; i++)
     {
         for (int j = 0; j < t.size(); j++)
         {
@@ -77,11 +79,16 @@ bool bruteforce(string &s, string &t)
     return false;
 }
 
-void test_case(string s, int n, string target)
+void test_case(string s, int n, string &target)
 {
     cout << "test_case ------------- " << s << " x" << n << endl;
 
     string str;
+    for (int i = 0; i < n; i++)
+    {
+        str += s;
+    }
+    str += target;
     for (int i = 0; i < n; i++)
     {
         str += s;
@@ -130,26 +137,28 @@ void test_case(string s, int n, string target)
 
 // string s("ABCDABD");
 // string s("abcabcab");
-string s("abcabcabc");
 
-void test_kmp_pre()
-{
-    cout << endl
-         << "KMP_pre_DP" << endl;
+// void test_kmp_pre()
+// {
+//     cout << endl
+//          << "KMP_pre_DP" << endl;
 
-    auto v = KMP_pre_DP(s);
+//     auto v = KMP_pre_DP(s);
 
-    for (auto &i : v)
-        cout << i << " ";
+//     for (auto &i : v)
+//         cout << i << " ";
 
-    cout << endl;
-}
+//     cout << endl;
+// }
 
 int main()
 {
-    test_kmp_pre();
 
-    test_case("abcddfkjgmnabcsmgksabcabc", 1000000, s);
+    string s1("1234561234567");
+    test_case("abcddfkjgmnabcsmgksabcabc", 1000000, s1);
+
+    test_case("xxxx1234567xxxxxxxksa123456778xxxxxxc", 1000000, s1);
+
     // test_case("abcddfkjgmnsmgksdmf", 10000000, "abcddfkjgmnsmgksdmfa");
     getchar();
 
