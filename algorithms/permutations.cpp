@@ -3,27 +3,10 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <debug.h>
 
 using namespace std;
 
-template <typename T>
-void printVector(vector<T> &vector)
-{
-    cout << "[";
-
-    int size = vector.size();
-    for (int i = 0; i < size; i++)
-    {
-        if (i != size - 1)
-        {
-            cout << vector[i] << ", ";
-        }
-        else
-        {
-            cout << vector[i] << "]" << endl;
-        }
-    }
-}
 
 template <typename T>
 void inner_permutations(T &v, int currentDepth, int endingDepth, vector<T> &result)
@@ -70,7 +53,7 @@ int main()
 
     do
     {
-        printVector<int>(*v);
+        Debug::printVector<int>(*v);
     } while (next_permutation(v->begin(), v->end()));
 
     cout << "recursive permutation vector<int>" << endl;
@@ -81,7 +64,7 @@ int main()
         permutations<vector<int>>(v2);
 
     for (auto &t : result)
-        printVector<int>(t);
+        Debug::printVector<int>(t);
 
     cout << "recursive permutation string" << endl;
 

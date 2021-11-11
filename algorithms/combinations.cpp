@@ -4,27 +4,9 @@
 #include <string>
 #include <type_traits>
 #include <vector>
+#include <debug.h>
 
 using namespace std;
-
-template <typename T>
-void printVector(vector<T> &vector)
-{
-    cout << "[";
-
-    int size = vector.size();
-    for (int i = 0; i < size; i++)
-    {
-        if (i != size - 1)
-        {
-            cout << vector[i] << ", ";
-        }
-        else
-        {
-            cout << vector[i] << "]" << endl;
-        }
-    }
-}
 
 template <typename T>
 void inner_combinations(T &v, int currentIndex, int currentDepth, int endingDepth, T &temp, vector<T> &result)
@@ -60,13 +42,13 @@ vector<T> combinations(T &v, int count)
     return result;
 }
 
-template <typename T>
-vector<T> combinations(string &v, int count)
+
+vector<string> combinations(string &v, int count)
 {
     if (count > v.size())
         return {};
 
-    vector<T> result;
+    vector<string> result;
 
     string t("", count);
     inner_combinations(v, 0, 0, count - 1, t, result);
@@ -91,7 +73,7 @@ int main()
 
     auto result = combinations<vector<int>>(*v, 3);
     for (auto &t : result)
-        printVector<int>(t);
+        Debug::printVector<int>(t);
 
     cout << "count: " << result.size() << endl;
 
