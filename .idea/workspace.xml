@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeSettings">
+    <configurations />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9c4174b-d3b2-48b7-b89b-80bebd797284" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/1046. Last Stone Weight.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/1046 - Last Stone Weight.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/3.longestSubstringWithoutRepeatingCharacters.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/3 - longestSubstringWithoutRepeatingCharacters.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/51. N-Queens.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/1.twoSum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/11. Container With Most Water.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/118. Pascal's Triangle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/array/118 - Pascal's Triangle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/121.bestTimetoBuyandSelStock.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/122. Best Time to Buy and Sell Stock II.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/15. 3Sum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/162. Find Peak Element.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/169. Majority Element.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/189. Rotate Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/217. Contains Duplicate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/238. Product of Array Except Self.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/239. Sliding Window Maximum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/26. Remove Duplicates from Sorted Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/268. Missing Number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/283. Move Zeroes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/287. Find the Duplicate Number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/33. Search in Rotated Sorted Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/34. Find First and Last Position of Element in Sorted Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/380. Insert Delete GetRandom O(1).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/48. Rotate Image.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/54. Spiral Matrix.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/55. Jump Game.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/56. Merge Intervals.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/66. Plus One.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/73. Set Matrix Zeroes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/75. Sort Colors.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/78. Subsets.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/79. Word Search.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array/88. Merge Sorted Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/array/88 - Merge Sorted Array.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/bit/289. Game of Life.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/bit/338. Counting Bits.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/bit/338 - Counting Bits.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/dp/139.wordBreak.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/dp/152.maximumProductSubarray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/dp/198.houseRobber.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/dp/221. Maximal Square.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/dp/279.perfectSquares.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/dp/309. Best Time to Buy and Sell Stock with Cooldown.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/dp/322.coinChange.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/dp/416. Partition Equal Subset Sum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/dp/494. Target Sum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/dp/53. maximumSubarray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/dp/62.UniquePaths.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/dp/64. Minimum Path Sum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/dp/70.climbingStairs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/dp/91. Decode Ways.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/dp/96. Unique Binary Search Trees.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/linkedlist/142. Linked List Cycle II.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/linkedlist/2.addTwoNumbers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/palindrome/5.longestPalindromicSubstring.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/palindrome/647. PalindromicSubstrings.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/string/13. Roman to Integer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/string/20. Valid Parentheses.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/string/344. Reverse String.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/string/344 - Reverse String.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/string/38. Count and Say.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/string/387. First Unique Character in a String.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/string/8. String to Integer (atoi).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/tree/105. Construct Binary Tree from Preorder and Inorder Traversal.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/vc140 - pdb.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MsQiVMo16oydfq6PDPGoiPjeea" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="88 - Merge Sorted Array.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp-lab" TARGET_NAME="88 - Merge Sorted Array.cpp" CONFIG_NAME="88 - Merge Sorted Array.cpp">
+      <option name="sourceFile" value="leetcode\array\88 - Merge Sorted Array.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.88 - Merge Sorted Array.cpp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9c4174b-d3b2-48b7-b89b-80bebd797284" name="Changes" comment="" />
+      <created>1678464551058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678464551058</updated>
+      <workItem from="1678464552224" duration="4859000" />
+      <workItem from="1678550171717" duration="394000" />
+      <workItem from="1678550834261" duration="859000" />
+      <workItem from="1678551746413" duration="1226000" />
+      <workItem from="1678553941291" duration="1253000" />
+      <workItem from="1678555212829" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
