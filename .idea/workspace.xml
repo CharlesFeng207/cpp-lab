@@ -11,72 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9c4174b-d3b2-48b7-b89b-80bebd797284" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/1046. Last Stone Weight.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/1046 - Last Stone Weight.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/3.longestSubstringWithoutRepeatingCharacters.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/3 - longestSubstringWithoutRepeatingCharacters.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/51. N-Queens.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/1.twoSum.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/11. Container With Most Water.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/118. Pascal's Triangle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/array/118 - Pascal's Triangle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/121.bestTimetoBuyandSelStock.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/122. Best Time to Buy and Sell Stock II.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/15. 3Sum.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/162. Find Peak Element.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/169. Majority Element.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/189. Rotate Array.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/217. Contains Duplicate.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/238. Product of Array Except Self.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/239. Sliding Window Maximum.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/26. Remove Duplicates from Sorted Array.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/268. Missing Number.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/283. Move Zeroes.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/287. Find the Duplicate Number.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/33. Search in Rotated Sorted Array.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/34. Find First and Last Position of Element in Sorted Array.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/380. Insert Delete GetRandom O(1).cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/48. Rotate Image.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/54. Spiral Matrix.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/55. Jump Game.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/56. Merge Intervals.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/66. Plus One.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/73. Set Matrix Zeroes.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/75. Sort Colors.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/78. Subsets.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/79. Word Search.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array/88. Merge Sorted Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/array/88 - Merge Sorted Array.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/bit/289. Game of Life.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/bit/338. Counting Bits.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/bit/338 - Counting Bits.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/dp/139.wordBreak.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/dp/152.maximumProductSubarray.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/dp/198.houseRobber.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/dp/221. Maximal Square.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/dp/279.perfectSquares.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/dp/309. Best Time to Buy and Sell Stock with Cooldown.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/dp/322.coinChange.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/dp/416. Partition Equal Subset Sum.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/dp/494. Target Sum.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/dp/53. maximumSubarray.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/dp/62.UniquePaths.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/dp/64. Minimum Path Sum.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/dp/70.climbingStairs.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/dp/91. Decode Ways.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/dp/96. Unique Binary Search Trees.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/linkedlist/142. Linked List Cycle II.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/linkedlist/2.addTwoNumbers.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/palindrome/5.longestPalindromicSubstring.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/palindrome/647. PalindromicSubstrings.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/string/13. Roman to Integer.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/string/20. Valid Parentheses.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/string/344. Reverse String.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/string/344 - Reverse String.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/string/38. Count and Say.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/string/387. First Unique Character in a String.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/string/8. String to Integer (atoi).cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/tree/105. Construct Binary Tree from Preorder and Inorder Traversal.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/vc140 - pdb.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +52,19 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="C/C++ File.11 - Container With Most Water.cpp">
+    <configuration name="1 - twoSum - cpp.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp-lab" TARGET_NAME="1 - twoSum - cpp.cpp" CONFIG_NAME="1 - twoSum - cpp.cpp">
+      <option name="sourceFile" value="leetcode\array\1 - twoSum - cpp.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="11 - Container With Most Water.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp-lab" TARGET_NAME="11 - Container With Most Water.cpp" CONFIG_NAME="11 - Container With Most Water.cpp">
+      <option name="sourceFile" value="leetcode\array\11 - Container With Most Water.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="88 - Merge Sorted Array.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp-lab" TARGET_NAME="88 - Merge Sorted Array.cpp" CONFIG_NAME="88 - Merge Sorted Array.cpp">
       <option name="sourceFile" value="leetcode\array\88 - Merge Sorted Array.cpp" />
       <method v="2">
@@ -126,6 +73,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.11 - Container With Most Water.cpp" />
+        <item itemvalue="C/C++ File.1 - twoSum - cpp.cpp" />
         <item itemvalue="C/C++ File.88 - Merge Sorted Array.cpp" />
       </list>
     </recent_temporary>
@@ -143,7 +92,10 @@
       <workItem from="1678550834261" duration="859000" />
       <workItem from="1678551746413" duration="1226000" />
       <workItem from="1678553941291" duration="1253000" />
-      <workItem from="1678555212829" duration="26000" />
+      <workItem from="1678555212829" duration="256000" />
+      <workItem from="1678591693442" duration="2563000" />
+      <workItem from="1679641393555" duration="24000" />
+      <workItem from="1686395231030" duration="9000" />
     </task>
     <servers />
   </component>

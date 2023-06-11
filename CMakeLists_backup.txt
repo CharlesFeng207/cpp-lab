@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(cpplab VERSION 0.1.0 LANGUAGES C CXX)
+
+include(CTest)
+include_directories(utils)
+include_directories(src)
+
+aux_source_directory(src main_src)
+
+enable_testing()
+
+add_executable(cpplab main.cpp ${main_src})
+
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+include(CPack)
