@@ -2,6 +2,7 @@
 #include <assert.h>
 #include <cstring>
 #include <iostream>
+#include <boost/format.hpp>
 
 using namespace std;
 
@@ -28,6 +29,24 @@ int strcmptest(const char *s1, const char *s2)
     return *s1 == *s2 ? 1 : 0;
 }
 
+void formatString()
+{
+    cout << "formatString..." << endl;
+    std::string str = "1234567890"; 
+    str += "x";
+    cout << str << endl;
+    
+    char* package_name = "com.tencent.tmgp.pubgmhd";
+    char file_name[260];
+    snprintf(file_name, sizeof(file_name), "/sdcard/Android/data/%s/files/framerecord.txt", package_name);
+    cout << file_name << endl;
+
+    boost::format fmt("/sdcard/Android/data/%1%/files/framerecord.txt %2%");
+    fmt % package_name % 100;
+    cout << fmt.str() << endl;
+
+}
+
 int main()
 {
     // char s2[] = "asdp32132";
@@ -44,4 +63,5 @@ int main()
     cout << dest << endl;
     // cout << strcmp("asd", "asd3xzx") << endl;
     // cout << strcmp("asd2xxx", "asd2xxx") << endl;
+    formatString();
 }

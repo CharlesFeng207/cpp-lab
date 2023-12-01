@@ -7,6 +7,10 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
+                "-I",
+                "C:\\boost_1_83_0",
+                "-L",
+                "C:\\boost_1_83_0\\bin.v2\\libs",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
