@@ -4,6 +4,9 @@
 #include <iostream>
 #include <boost/format.hpp>
 #include <sstream>
+#include <vector>
+#include <unordered_set>
+#include <boost/algorithm/string/join.hpp>
 
 using namespace std;
 
@@ -54,6 +57,17 @@ static std::wstring wstr_format(const std::wstring &format, Args ... args)
 
 	std::snprintf(buf.get(), size_buf, format.c_str(), args ...);
 	return std::wstring(buf.get(), buf.get() + size_buf - 1); 
+}
+
+void formatArr()
+{
+    vector<string> arr = {"1", "2", "3"};
+    string str = boost::algorithm::join(arr, ",");
+    cout << str << endl;
+
+    std::unordered_set<std::string> set = {"1", "2", "3"};
+    string str2 = boost::algorithm::join(set, ",");
+    cout << str2 << endl;
 }
 
 void formatString()
@@ -107,4 +121,6 @@ int main()
     // cout << strcmp("asd", "asd3xzx") << endl;
     // cout << strcmp("asd2xxx", "asd2xxx") << endl;
     formatString();
+
+    formatArr();
 }
