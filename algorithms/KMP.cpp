@@ -2,7 +2,7 @@
 #include <string>
 #include <time.h>
 #include <vector>
-#include <debug.h>
+#include "utils/debug.h"
 
 using namespace std;
 
@@ -31,6 +31,7 @@ vector<int> KMP_pre_DP(string &t)
 bool KMP(string &s, string &t)
 {
     auto f = KMP_pre_DP(t);
+
     Debug::printVector(f);
 
     int loopCount = s.size() - t.size() + 1;

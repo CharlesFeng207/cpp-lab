@@ -15,7 +15,7 @@ void fileTestC()
         exit(1);
     }
 
-    char* testStr = "xxxxx";
+    char* testStr = "xxxxx2";
     fwrite(testStr, 1, strlen(testStr), file);
     fflush(file);
     fclose(file);

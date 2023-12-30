@@ -1,11 +1,18 @@
 #include <iostream>
-#include "src/Utils.h"
+#include <boost/format.hpp>
 #include "src/sub/test.h"
+#include "utils/json.hpp"
+#include <string>
 
-int main(int, char**){
-    int i = Utils::CreateTexture("xxx");
-    std::cout << test(i);
-    std::cout << i;
-    std::cout << i;
-    std::cout << " Hello, from cpplab!\n";
+using json = nlohmann::json;
+
+int main(int, char **)
+{
+    std::string package_name = "com.tencent.tmgp.sgame";
+    boost::format fmt("/sdcard/Android/data/%1%/files/framerecord.txt %2%");
+    fmt % package_name % 100;
+    std::cout << fmt.str() << std::endl;
+
+
+    std::cout << "Hello, from cpplab!\n";
 }
