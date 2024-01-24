@@ -59,7 +59,8 @@
         "forward_list": "cpp",
         "ratio": "cpp",
         "iomanip": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "thread": "cpp"
     },
     "C_Cpp.default.compilerPath": "C:\\mingw64\\bin\\g++.exe",
     "C_Cpp.errorSquiggles": "disabled"
