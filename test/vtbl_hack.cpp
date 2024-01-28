@@ -102,17 +102,16 @@ int main()
     uintptr_t *vtblPtr = (uintptr_t *)vtablePtrAddr; // vtable地址转换成指针
     uintptr_t functionAddr = vtblPtr[10]; // 10 是 GetName 函数在 vtable 中的索引
     
-    // 万能指针转换为对象指针，用于调用成员函数
-    HackData* animatorPtr = (HackData*)animatorPtrAddr;
+    void* animatorPtr = (void*)animatorPtrAddr;
 
     // 定义一个函数指针类型，与被调用的成员函数签名匹配
-    typedef const char*(*fakefunc)(HackData &);
+    typedef const char*(*fakefunc)(void *);
 
-    // 将万能指针转换为函数指针
+    // 转换为函数指针
     fakefunc func = (fakefunc)functionAddr;
 
-    // 调用成员函数，成员函数默认第一个参数传对象引用
-    std::cout << func(*animatorPtr) << "\n";
+    // 调用成员函数，成员函数默认第一个参数this指针
+    std::cout << func(animatorPtr) << "\n";
 
     return 0;
 }
