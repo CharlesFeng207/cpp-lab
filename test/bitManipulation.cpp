@@ -22,6 +22,27 @@ const unsigned char option7 = 1 << 7; // 1000 0000
 
 unsigned char myflags = 0; // all bits turned off to start
 
+const int PROGRESS_SPLIT_COUNT = 4;
+const int PROGRESS_CHECK_MASK = (1 << PROGRESS_SPLIT_COUNT) - 1;
+char progressFlags = 0;
+
+inline void AssertProgressSplitCount()
+{
+    if(progressFlags > 8)
+        cout << "progressFlags is not enough to store progressFlags" << endl;
+}
+
+inline void SetFlagByProgress(float progress)
+{
+    int index = static_cast<int>(progress * PROGRESS_SPLIT_COUNT);
+    progressFlags |= (1 << index);
+}
+
+inline bool CheckFlag()
+{
+    return (progressFlags & PROGRESS_CHECK_MASK) == PROGRESS_CHECK_MASK;
+}
+
 int isPower(int n)
 {
     return n > 0 && (n & (n - 1)) == 0;
@@ -86,6 +107,18 @@ int main()
     cout << "isPower: 2 -> " << isPower(2) << endl;
 
     cout << ((2 > 0) && ((2 & 1) == 0)) << endl;
+
+    cout << "sizeof(char): " << sizeof(char) << endl;
+    AssertProgressSplitCount();
+
+    SetFlagByProgress(0.1f);
+    SetFlagByProgress(0.2f);
+    SetFlagByProgress(0.25f);
+    SetFlagByProgress(0.5f);
+    SetFlagByProgress(0.75f);
+    SetFlagByProgress(1.0f);
+
+    cout << "CheckFlag: " << CheckFlag() << endl;
 
     getchar();
 

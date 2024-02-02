@@ -77,15 +77,6 @@ public:
     char pad2[110];
 };
 
-class HackData
-{
-public:
-    HackData()
-    {
-        std::cout << "Data Constructor won't call" << "\n";
-    }
-};
-
 int main()
 {
     JobData *jobData = new JobData[2];
