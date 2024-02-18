@@ -22,25 +22,33 @@ const unsigned char option7 = 1 << 7; // 1000 0000
 
 unsigned char myflags = 0; // all bits turned off to start
 
-const int PROGRESS_SPLIT_COUNT = 4;
-const int PROGRESS_CHECK_MASK = (1 << PROGRESS_SPLIT_COUNT) - 1;
-char progressFlags = 0;
+const int PROPER_BOUNDS_PROGRESS_SPLIT = 7; // [1, 7]
+const int PROPER_BOUNDS_CHECK_MASK = (1 << PROPER_BOUNDS_PROGRESS_SPLIT) - 1;
+unsigned char m_ReuseProperBoundsFlags = 0;
 
-inline void AssertProgressSplitCount()
+void MarkReuseProperBounds(bool enable)
 {
-    if(progressFlags > 8)
-        cout << "progressFlags is not enough to store progressFlags" << endl;
+    if(enable)
+        m_ReuseProperBoundsFlags |= 1 << 7;
+    else
+        m_ReuseProperBoundsFlags &= ~(1 << 7);
 }
 
-inline void SetFlagByProgress(float progress)
+inline bool IsMarkedReuseProperBounds()
 {
-    int index = static_cast<int>(progress * PROGRESS_SPLIT_COUNT);
-    progressFlags |= (1 << index);
+    return (m_ReuseProperBoundsFlags & (1 << 7)) != 0;
 }
 
-inline bool CheckFlag()
+inline void SetProperBoundsFlag(float progress)
 {
-    return (progressFlags & PROGRESS_CHECK_MASK) == PROGRESS_CHECK_MASK;
+    int index = static_cast<int>(progress * PROPER_BOUNDS_PROGRESS_SPLIT);
+    index = std::max(std::min(index, PROPER_BOUNDS_PROGRESS_SPLIT - 1), 0);
+    m_ReuseProperBoundsFlags |= (1 << index);
+}
+
+inline bool CheckProperBoundsFlag()
+{
+    return (m_ReuseProperBoundsFlags & PROPER_BOUNDS_CHECK_MASK) == PROPER_BOUNDS_CHECK_MASK;
 }
 
 int isPower(int n)
@@ -109,16 +117,25 @@ int main()
     cout << ((2 > 0) && ((2 & 1) == 0)) << endl;
 
     cout << "sizeof(char): " << sizeof(char) << endl;
-    AssertProgressSplitCount();
 
-    SetFlagByProgress(0.1f);
-    SetFlagByProgress(0.2f);
-    SetFlagByProgress(0.25f);
-    SetFlagByProgress(0.5f);
-    SetFlagByProgress(0.75f);
-    SetFlagByProgress(1.0f);
+    static_assert(PROPER_BOUNDS_PROGRESS_SPLIT >= 0 && PROPER_BOUNDS_PROGRESS_SPLIT <= 7,
+                  "PROPER_BOUNDS_PROGRESS_SPLIT must be in range [0, 7]");
 
-    cout << "CheckFlag: " << CheckFlag() << endl;
+    
+    // MarkReuseProperBounds();
+    cout << "IsMarkedReuseProperBounds: " << IsMarkedReuseProperBounds() << endl;
+
+    SetProperBoundsFlag(0.1f);
+    SetProperBoundsFlag(0.2f);
+    SetProperBoundsFlag(0.25f);
+    SetProperBoundsFlag(0.5f);
+
+    SetProperBoundsFlag(0.7f);
+    SetProperBoundsFlag(0.75f);
+    SetProperBoundsFlag(1.0f);
+
+
+    cout << "CheckFlag: " << CheckProperBoundsFlag() << endl;
 
     getchar();
 
