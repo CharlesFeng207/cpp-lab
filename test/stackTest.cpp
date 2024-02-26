@@ -12,6 +12,10 @@ class TestClass
         {
             std::cout << "Goodbye World!" << std::endl;
         };
+    private:
+        // Copy assignment operator
+        TestClass& operator=(const TestClass& other);
+       
 };
 
 TestClass TestFunction()
@@ -26,6 +30,8 @@ int main()
     if(true)
         TestClass test; // 离开作用域时，会调用析构函数
     std::cout << "End of if" << std::endl;
+
+    auto t2 = test; // 调用拷贝构造函数会有编译报错，刻意通过私有化拷贝构造函数来阻止拷贝构造
 
     // 返回值优化（Return Value Optimization，简称 RVO）是一种优化技术
     // 用于避免不必要的对象拷贝操作。它的主要原理是将函数中创建的局部对象直接放置到函数调用者提供的内存空间中

@@ -44,7 +44,7 @@ void fileTestCpp()
     output.close();
 
     std::ifstream input("fileTestCpp.txt");    // 打开文件
-    if (!input) {
+    if (!input) {   
         std::cout << "Failed to open file." << std::endl;
         return;
     }
