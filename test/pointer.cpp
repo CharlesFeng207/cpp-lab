@@ -5,7 +5,7 @@ int main()
 {
     int a = 10;
     int *p = &a;
-    *p++;
+    *p++; // (*p)++
     cout << "a " << a << endl;    
     return 0;
 }
