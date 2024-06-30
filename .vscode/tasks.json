@@ -6,6 +6,7 @@
             "command": "C:\\mingw64\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
+                // "-save-temps=obj",
                 "-g",
                 "-I",
                 "C:\\boost_1_83_0",
